@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Assign Fee";
+}
+
+<h1>Assign Fee</h1>
+
+<h4>Fee Assignment</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Assign">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group mb-3">
+                <label class="control-label">Student</label>
+                <select name="studentId" class="form-control" asp-items="ViewBag.StudentId"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Fee Head</label>
+                <select name="feeHeadId" class="form-control" asp-items="ViewBag.FeeHeadId"></select>
+                <small><a asp-action="SeedFeeHeads">Seed Default Fee Heads</a> if list is empty.</small>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Amount</label>
+                <input name="amount" type="number" step="0.01" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Due Date</label>
+                <input name="dueDate" type="date" class="form-control" value="@DateTime.Today.ToString("yyyy-MM-dd")" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Assign" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

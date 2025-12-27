@@ -1,0 +1,37 @@
+@model IEnumerable<FeesManagementSystem.Models.StudentFee>
+
+@{
+    ViewData["Title"] = "Unpaid Fees";
+}
+
+<h1>Unpaid Fees</h1>
+
+<p>
+    <a asp-action="Assign" class="btn btn-primary">Assign New Fee</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student</th>
+            <th>Fee Head</th>
+            <th>Amount</th>
+            <th>Due Date</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="@(item.DueDate < DateTime.Today ? "table-danger" : "")">
+            <td>@item.Student?.Name</td>
+            <td>@item.FeeHead?.Name</td>
+            <td>@item.Amount.ToString("C")</td>
+            <td>@item.DueDate.ToShortDateString()</td>
+            <td>
+                <form asp-action="Pay" asp-route-id="@item.Id" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-success btn-sm">Mark Paid</button>
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

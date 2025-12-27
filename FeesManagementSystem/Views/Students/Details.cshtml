@@ -1,0 +1,54 @@
+@model FeesManagementSystem.Models.Student
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">@Html.DisplayNameFor(model => model.Name)</dt>
+        <dd class = "col-sm-10">@Html.DisplayFor(model => model.Name)</dd>
+        <dt class = "col-sm-2">@Html.DisplayNameFor(model => model.Email)</dt>
+        <dd class = "col-sm-10">@Html.DisplayFor(model => model.Email)</dd>
+        <dt class = "col-sm-2">@Html.DisplayNameFor(model => model.PhoneNumber)</dt>
+        <dd class = "col-sm-10">@Html.DisplayFor(model => model.PhoneNumber)</dd>
+        <dt class = "col-sm-2">@Html.DisplayNameFor(model => model.Course)</dt>
+        <dd class = "col-sm-10">@Html.DisplayFor(model => model.Course)</dd>
+    </dl>
+</div>
+
+<h3>Fee History</h3>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Fee Head</th>
+            <th>Amount</th>
+            <th>Due Date</th>
+            <th>Status</th>
+            <th>Paid Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var fee in (IEnumerable<FeesManagementSystem.Models.StudentFee>)ViewBag.Fees)
+        {
+            <tr class="@(fee.IsPaid ? "table-success" : (fee.DueDate < DateTime.Today ? "table-danger" : ""))">
+                <td>@fee.FeeHead?.Name</td>
+                <td>@fee.Amount.ToString("C")</td>
+                <td>@fee.DueDate.ToShortDateString()</td>
+                <td>
+                    @if(fee.IsPaid) { <span class="badge bg-success">Paid</span> }
+                    else { <span class="badge bg-danger">Unpaid</span> }
+                </td>
+                <td>@fee.PaidDate?.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
