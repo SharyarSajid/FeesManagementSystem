@@ -1,0 +1,396 @@
+2026-02-04 10:59:29,041 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 10:59:30,053 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-04 18:01:39,378 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 18:01:53,303 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Login failed for user 'adminPassword=admin123'.
+2026-02-04 18:08:57,945 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 18:08:58,287 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Keyword not supported: 'id'.
+2026-02-04 18:10:49,821 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 18:10:50,202 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Login failed for user 'admin'.
+2026-02-04 18:12:59,865 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 18:13:09,199 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Login failed for user 'admin'.
+2026-02-04 18:19:09,093 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 18:19:09,611 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Login failed for user 'admin'.
+2026-02-04 18:22:51,701 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 18:22:52,184 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Login failed for user 'admin'.
+2026-02-04 18:28:59,305 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 18:28:59,844 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Login failed for user 'Dbadmin'.
+2026-02-04 18:49:01,786 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 18:49:03,828 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Invalid object name 'AspNetUsers'.
+2026-02-04 18:50:01,694 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 18:50:02,645 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Invalid object name 'AspNetUsers'.
+2026-02-04 18:55:53,792 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 19:07:44,178 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-04 19:10:41,170 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-04 19:10:43,297 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 19:10:45,212 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-04 19:22:04,490 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-04 19:22:06,803 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 19:22:23,001 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=1; [Login] initialization=0; authentication=0; [Post-Login] complete=14012; 
+2026-02-04 19:23:00,652 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 19:23:15,032 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=0; handshake=1; [Login] initialization=0; authentication=0; [Post-Login] complete=14022; 
+2026-02-04 19:23:47,567 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 19:24:02,536 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-04 21:02:03,220 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 21:02:18,276 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=7600; [Login] initialization=0; authentication=0; [Post-Login] complete=7067; 
+2026-02-04 21:03:45,860 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-04 21:18:25,919 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-04 21:18:40,418 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=0; handshake=1; [Login] initialization=0; authentication=0; [Post-Login] complete=14040; 
+2026-02-08 19:14:50,684 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-08 19:14:51,212 WARN  FeesManagementSystem.Controllers.AccountController - Invalid login attempt for sharyarsajid20@gmail.com.
+2026-02-08 19:14:53,208 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-08 19:14:53,401 WARN  FeesManagementSystem.Controllers.AccountController - Invalid login attempt for sharyarsajid20@gmail.com.
+2026-02-09 12:09:59,341 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:09:59,593 WARN  FeesManagementSystem.Controllers.AccountController - Invalid login attempt for sharyarsajid20@gmail.com.
+2026-02-09 12:10:06,063 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-09 12:10:07,175 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com created successfully.
+2026-02-09 12:10:17,046 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-09 12:10:18,574 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:10:19,082 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-09 12:10:20,806 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-09 12:10:24,640 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:10:24,941 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-09 12:11:24,321 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:11:25,108 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-09 12:11:27,365 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-09 12:52:12,680 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:52:13,553 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-11 16:14:37,704 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-11 16:14:39,074 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-11 16:16:52,871 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-11 16:17:18,745 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-11 16:17:19,043 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-11 16:29:51,069 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-11 17:01:26,502 INFO  FeesManagementSystem.Controllers.AccountController - Attempting to create user: supervisor@gmail.com
+2026-02-11 17:01:26,530 ERROR FeesManagementSystem.Controllers.AccountController - Signup Error for supervisor@gmail.com: PasswordRequiresNonAlphanumeric - Passwords must have at least one non alphanumeric character.
+2026-02-11 17:01:26,531 ERROR FeesManagementSystem.Controllers.AccountController - Signup Error for supervisor@gmail.com: PasswordRequiresDigit - Passwords must have at least one digit ('0'-'9').
+2026-02-11 17:01:26,531 ERROR FeesManagementSystem.Controllers.AccountController - Signup Error for supervisor@gmail.com: PasswordRequiresUpper - Passwords must have at least one uppercase ('A'-'Z').
+2026-02-11 17:01:56,060 INFO  FeesManagementSystem.Controllers.AccountController - Attempting to create user: supervisor@gmail.com
+2026-02-11 17:01:56,061 ERROR FeesManagementSystem.Controllers.AccountController - Signup Error for supervisor@gmail.com: PasswordRequiresNonAlphanumeric - Passwords must have at least one non alphanumeric character.
+2026-02-11 17:01:56,061 ERROR FeesManagementSystem.Controllers.AccountController - Signup Error for supervisor@gmail.com: PasswordRequiresDigit - Passwords must have at least one digit ('0'-'9').
+2026-02-11 17:02:10,106 INFO  FeesManagementSystem.Controllers.AccountController - Attempting to create user: supervisor@gmail.com
+2026-02-11 17:02:10,106 ERROR FeesManagementSystem.Controllers.AccountController - Signup Error for supervisor@gmail.com: PasswordRequiresNonAlphanumeric - Passwords must have at least one non alphanumeric character.
+2026-02-11 17:02:37,561 INFO  FeesManagementSystem.Controllers.AccountController - Attempting to create user: supervisor@gmail.com
+2026-02-11 17:02:38,082 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com created successfully.
+2026-02-11 17:03:13,188 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 17:05:13,646 INFO  FeesManagementSystem.Controllers.AccountController - Attempting to create user: dataentryoperator@gmail.com
+2026-02-11 17:05:13,942 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com created successfully.
+2026-02-11 17:07:04,209 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 17:07:06,347 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 17:07:06,578 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 17:07:08,184 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 17:07:12,528 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 17:07:12,764 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 17:07:34,064 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 17:07:38,651 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 17:07:38,934 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 17:08:01,929 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 17:08:06,596 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 17:08:06,880 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 17:08:13,344 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 17:08:15,462 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 17:08:15,721 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 17:08:37,266 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 17:08:41,169 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 17:08:41,419 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 17:10:59,629 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 17:11:01,507 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 17:11:01,748 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 17:11:34,755 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 17:18:37,608 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 17:18:38,271 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 17:19:05,507 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 17:19:09,720 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 17:19:09,987 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 17:19:20,178 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 17:19:30,000 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 17:19:30,277 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 17:20:21,026 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 17:20:22,687 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 17:20:22,916 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 17:20:37,983 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 17:21:15,540 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 17:21:15,810 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 17:33:59,493 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:10:08,700 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:10:09,309 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:10:12,944 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:10:17,152 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 21:10:17,566 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 21:10:42,431 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 21:10:48,414 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:10:48,661 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:10:57,673 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:11:02,972 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 21:11:03,242 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 21:11:15,508 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 21:11:21,762 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:11:22,006 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:11:29,398 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:11:34,172 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 21:11:34,478 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 21:11:51,029 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 21:11:53,958 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:11:54,175 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:12:01,664 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:12:05,365 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 21:12:05,605 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 21:12:19,205 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 21:12:22,875 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:12:23,081 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:12:47,847 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:12:51,918 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 21:12:52,286 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 21:13:00,426 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 21:13:03,747 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:13:04,005 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:14:01,509 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:14:03,993 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:14:04,338 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:18:10,317 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:18:15,179 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 21:18:15,586 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 21:37:49,645 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 21:37:55,493 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 21:37:56,013 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 21:38:09,560 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 21:38:12,447 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:38:12,724 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:38:32,525 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:38:37,755 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 21:38:38,115 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 21:39:02,233 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 21:39:06,556 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:39:06,821 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:39:18,250 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:39:25,508 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:39:25,771 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:39:30,995 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:39:32,671 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-11 21:39:33,030 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-11 21:40:21,811 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-11 21:40:26,109 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 21:40:26,458 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 21:40:47,661 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 22:34:07,816 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 22:34:08,441 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 22:34:13,196 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 22:36:38,359 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 22:36:38,624 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 22:36:42,473 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 22:43:12,384 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 22:43:12,894 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 22:43:18,134 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 22:44:06,782 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 22:44:07,057 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 22:46:31,792 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 22:54:02,199 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 22:54:02,642 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 22:54:09,416 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 23:15:15,719 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 23:15:16,404 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 23:15:21,470 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 23:21:56,274 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 23:21:56,736 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 23:21:58,821 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-11 23:24:44,400 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-11 23:24:44,670 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-11 23:24:46,902 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-12 11:05:31,707 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-12 11:05:32,305 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-12 11:05:34,899 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-12 11:06:39,261 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-12 11:06:39,548 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-12 11:06:52,656 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-12 11:07:47,255 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-12 11:07:47,602 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-12 11:11:04,749 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-12 11:20:30,226 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-12 11:20:30,651 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-12 11:24:56,902 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-12 11:24:59,750 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-12 11:25:00,310 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-12 11:25:59,797 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-12 11:29:59,301 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-12 11:29:59,660 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-12 11:30:03,177 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-12 11:33:21,056 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-12 11:33:21,699 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-12 11:33:28,189 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-12 11:34:07,621 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-12 11:34:07,870 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-12 11:40:47,995 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-12 11:45:26,187 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-12 11:45:26,886 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-12 14:05:05,141 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 5717
+2026-02-12 14:05:05,200 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-12 14:06:24,461 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 5382
+2026-02-12 14:06:24,485 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-12 14:07:58,618 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-12 14:07:58,984 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-12 14:08:01,682 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-12 14:08:16,902 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-12 14:08:17,144 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-12 14:08:20,228 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-12 14:10:04,783 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-12 14:10:05,078 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-12 14:10:08,928 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-12 14:10:11,522 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-12 14:10:11,749 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged in successfully.
+2026-02-12 14:10:14,667 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid20@gmail.com logged out.
+2026-02-12 14:11:49,482 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 4960
+2026-02-12 14:11:49,499 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-12 14:22:55,692 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 3194
+2026-02-12 14:22:55,793 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-12 14:41:04,166 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 3072
+2026-02-12 14:41:04,234 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-12 14:42:56,883 INFO  FeesManagementSystem.Controllers.AccountController - Attempting to create user: sharyarsajid20@gmail.com
+2026-02-12 14:42:57,222 ERROR FeesManagementSystem.Controllers.AccountController - CreateAccount Error for sharyarsajid20@gmail.com: DuplicateUserName - Username 'sharyarsajid20@gmail.com' is already taken.
+2026-02-12 14:43:21,698 INFO  FeesManagementSystem.Controllers.AccountController - Attempting to create user: sharyarsajid10@gmail.com
+2026-02-12 14:43:22,204 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com created successfully.
+2026-02-12 16:30:29,907 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 5775
+2026-02-12 16:30:29,969 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-12 21:07:45,146 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 7980
+2026-02-12 21:07:45,282 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-12 21:11:12,196 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 3973
+2026-02-12 21:11:12,252 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-12 21:58:00,558 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 8195
+2026-02-12 21:58:00,582 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-12 22:10:27,785 ERROR FeesManagementSystem.Controllers.AccountController - Error sending OTP email to sharyarsajid20@gmail.com: Failure sending mail.
+2026-02-12 22:10:49,820 ERROR FeesManagementSystem.Controllers.AccountController - Error sending OTP email to sharyarsajid20@gmail.com: Failure sending mail.
+2026-02-12 22:10:50,908 ERROR FeesManagementSystem.Controllers.AccountController - Error sending OTP email to sharyarsajid20@gmail.com: Failure sending mail.
+2026-02-12 22:10:51,692 ERROR FeesManagementSystem.Controllers.AccountController - Error sending OTP email to sharyarsajid20@gmail.com: Failure sending mail.
+2026-02-12 22:10:52,256 ERROR FeesManagementSystem.Controllers.AccountController - Error sending OTP email to sharyarsajid20@gmail.com: Failure sending mail.
+2026-02-12 22:16:09,115 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 7982
+2026-02-12 22:16:09,139 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-12 22:48:40,161 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 8781
+2026-02-12 22:48:40,188 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-13 10:50:49,990 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 9753
+2026-02-13 10:50:50,119 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-13 11:08:58,751 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 8576
+2026-02-13 11:08:58,769 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-13 11:10:03,533 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid10@gmail.com
+2026-02-13 11:10:03,974 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com logged in successfully.
+2026-02-13 11:10:07,718 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com logged out.
+2026-02-13 11:10:25,047 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid10@gmail.com
+2026-02-13 11:10:25,291 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com logged in successfully.
+2026-02-13 11:10:34,397 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com logged out.
+2026-02-13 11:10:41,898 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid10@gmail.com
+2026-02-13 11:10:42,096 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com logged in successfully.
+2026-02-13 11:10:52,933 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com logged out.
+2026-02-13 11:10:57,905 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-13 11:10:58,336 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 17:25:21,655 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 17:25:22,530 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 17:25:29,204 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 17:26:04,737 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 17:26:05,017 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 17:28:23,787 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 17:30:21,907 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-16 17:30:22,267 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-16 17:30:57,857 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-16 17:30:59,806 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-16 17:31:00,121 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-16 17:31:04,979 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-16 17:31:09,063 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 17:31:09,374 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 17:31:38,361 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 17:31:43,150 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-16 17:31:43,422 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-16 17:32:51,774 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-16 17:33:09,502 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 17:33:09,746 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 17:33:29,979 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 17:33:36,105 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-16 17:33:36,404 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-16 17:33:54,680 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-16 17:33:58,636 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 17:33:58,926 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 17:37:49,393 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 17:37:59,399 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-16 17:37:59,722 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-16 17:38:11,480 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-16 17:38:17,632 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 17:38:17,857 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 18:03:21,405 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 18:03:22,928 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 18:03:23,620 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 18:09:53,082 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 18:10:45,218 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 18:10:45,898 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 18:11:25,349 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 18:11:26,514 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 18:11:26,706 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 18:12:48,397 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 18:12:52,662 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-16 18:12:52,902 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-16 18:15:36,525 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-16 18:15:39,832 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 18:15:40,123 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 18:17:38,547 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 18:18:38,935 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 18:18:39,197 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 18:18:49,065 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 18:18:52,970 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-16 18:18:53,356 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-16 18:19:05,232 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-16 18:19:09,930 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 18:19:10,153 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 18:19:20,195 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-16 18:19:25,456 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-16 18:19:25,737 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-16 18:19:39,160 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-16 18:19:57,071 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 6022
+2026-02-16 18:19:57,144 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-02-16 18:22:31,882 INFO  FeesManagementSystem.Controllers.AccountController - Attempting to create user: sharyarsajid1000@gmail.com
+2026-02-16 18:22:32,203 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid1000@gmail.com created successfully.
+2026-02-16 22:39:56,052 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid10@gmail.com
+2026-02-16 22:39:56,778 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com logged in successfully.
+2026-02-16 22:40:03,274 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com logged out.
+2026-02-16 22:57:31,454 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid10@gmail.com
+2026-02-16 22:57:32,213 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com logged in successfully.
+2026-02-16 22:57:35,887 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid10@gmail.com logged out.
+2026-02-16 22:57:41,029 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-16 22:57:41,264 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-16 22:58:43,271 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-18 12:33:51,730 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-18 12:33:52,606 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-18 12:38:32,366 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-23 12:14:47,031 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-23 12:14:47,745 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-23 12:15:43,467 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-23 12:17:42,377 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-23 12:17:42,699 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-23 12:19:13,595 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-23 12:36:04,843 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-23 12:36:05,266 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-23 13:03:06,850 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-23 13:03:08,746 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-23 13:03:09,102 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-23 13:03:18,886 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-23 13:03:36,629 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-23 13:03:36,926 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-23 13:03:41,534 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-23 13:03:45,693 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-23 13:03:46,061 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-23 13:03:50,090 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-23 13:05:28,017 INFO  FeesManagementSystem.Controllers.AccountController - Attempting to create user: johndoe@gmail.com
+2026-02-23 13:05:28,030 ERROR FeesManagementSystem.Controllers.AccountController - CreateAccount Error for johndoe@gmail.com: PasswordRequiresNonAlphanumeric - Passwords must have at least one non alphanumeric character.
+2026-02-23 13:06:16,352 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-23 13:06:16,697 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-24 15:34:22,814 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-24 15:34:23,498 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-24 15:34:39,372 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-24 15:35:30,864 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-24 15:35:31,157 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-24 15:35:33,402 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-24 15:39:11,074 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-24 15:39:11,414 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-24 15:40:32,534 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-24 15:44:25,216 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: supervisor@gmail.com
+2026-02-24 15:44:25,692 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged in successfully.
+2026-02-24 15:44:57,059 INFO  FeesManagementSystem.Controllers.AccountController - User supervisor@gmail.com logged out.
+2026-02-24 15:45:01,608 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-02-24 15:45:01,997 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
+2026-02-24 15:45:19,651 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
+2026-02-24 15:45:35,621 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 9899
+2026-02-24 15:45:35,709 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com

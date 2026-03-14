@@ -1,0 +1,100 @@
+@model FeesManagementSystem.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Create Account";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<div class="login-split-screen">
+    <div class="login-image-side">
+        <div class="login-image-overlay"></div>
+        <div class="login-text-overlay">
+            <h1>Join Us Today!</h1>
+            <p>Start managing your institution with ease and efficiency.</p>
+        </div>
+    </div>
+    <div class="login-form-side">
+        <div class="login-card">
+            <div class="login-header">
+                <h2>Create Account</h2>
+                <p>Fill in the details below to create your account.</p>
+            </div>
+            <form asp-action="CreateAccount" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Role" class="control-label">User Role</label>
+                    <select asp-for="Role" class="form-control form-control-premium">
+                        <option value="">-- Select Role --</option>
+                        <option value="Supervisor">Supervisor</option>
+                        <option value="Data Entry Operator">Data Entry Operator</option>
+                    </select>
+                    <span asp-validation-for="Role" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="FullName" class="control-label">Full Name</label>
+                    <input asp-for="FullName" class="form-control form-control-premium" placeholder="John Doe" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="control-label">Email Address</label>
+                    <input asp-for="Email" class="form-control form-control-premium" placeholder="name@example.com" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Password" class="control-label">Password</label>
+                    <div class="password-wrapper">
+                        <input asp-for="Password" class="form-control form-control-premium" id="passwordField" placeholder="Create a password" oncopy="return false" oncut="return false" onpaste="return false"/>
+                        <button type="button" class="input-group-text-premium" onclick="togglePasswordVisibility('passwordField', 'passwordIcon')">
+                            <i class="bi bi-eye" id="passwordIcon"></i>
+                        </button>
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="ConfirmPassword" class="control-label">Confirm Password</label>
+                    <div class="password-wrapper">
+                        <input asp-for="ConfirmPassword" class="form-control form-control-premium" id="confirmPasswordField" placeholder="Confirm your password" oncopy="return false" oncut="return false" onpaste="return false"/>
+                        <button type="button" class="input-group-text-premium" onclick="togglePasswordVisibility('confirmPasswordField', 'confirmPasswordIcon')">
+                            <i class="bi bi-eye" id="confirmPasswordIcon"></i>
+                        </button>
+                    </div>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary btn-premium">Create Account</button>
+                </div>
+            </form>
+
+            <div class="auth-links">
+                <p>Already have an account? <a asp-action="Login" asp-controller="Account">Login</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        function togglePasswordVisibility(fieldId, iconId) {
+            const field = document.getElementById(fieldId);
+            const icon = document.getElementById(iconId);
+            
+            if (field.type === "password") {
+                field.type = "text";
+                icon.classList.remove("bi-eye");
+                icon.classList.add("bi-eye-slash");
+            } else {
+                field.type = "password";
+                icon.classList.remove("bi-eye-slash");
+                icon.classList.add("bi-eye");
+
+            }
+        }
+    </script>
+}

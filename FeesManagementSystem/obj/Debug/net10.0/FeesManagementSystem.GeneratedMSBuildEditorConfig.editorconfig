@@ -19,61 +19,105 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = FeesManagementSystem
 build_property.RootNamespace = FeesManagementSystem
-build_property.ProjectDir = D:\ProgrammingPractice\FeesManagementSystem\FeesManagementSystem\
+build_property.ProjectDir = D:\FeesManagementSystem\FeesManagementSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ProgrammingPractice\FeesManagementSystem\FeesManagementSystem
+build_property.MSBuildProjectDirectory = D:\FeesManagementSystem\FeesManagementSystem
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/Fees/Assign.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Account/AccountCreated.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NvdW50Q3JlYXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Account/CreateAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Account/PasswordChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYXNzd29yZENoYW5nZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Account/VerifyOtp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZnlPdHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Fees/Assign.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlc1xBc3NpZ24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/Fees/Index.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Fees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/Home/Index.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Fees/Print.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlc1xQcmludC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/Home/Privacy.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/Shared/Error.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/Students/Create.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/Students/Details.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/Students/Index.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/_ViewImports.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/_ViewStart.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammingPractice/FeesManagementSystem/FeesManagementSystem/Views/Shared/_Layout.cshtml]
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mpmqmeb9kj

@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using FeesManagementSystem.Data;
 using FeesManagementSystem.Models;
 using Microsoft.EntityFrameworkCore;
@@ -52,5 +48,16 @@ namespace FeesManagementSystem.Services
                 await _context.SaveChangesAsync();
             }
         }
+
+
+        public async Task<IEnumerable<StudentFee>> GetAllFeesAsync()
+        {
+            return await _context.StudentFees
+                .Include(f => f.Student)
+                .Include(f => f.FeeHead)
+                .ToListAsync();
+        }
+
+
     }
 }

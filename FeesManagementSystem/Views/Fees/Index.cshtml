@@ -4,34 +4,51 @@
     ViewData["Title"] = "Unpaid Fees";
 }
 
-<h1>Unpaid Fees</h1>
-
-<p>
-    <a asp-action="Assign" class="btn btn-primary">Assign New Fee</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Student</th>
-            <th>Fee Head</th>
-            <th>Amount</th>
-            <th>Due Date</th>
-            <th>Action</th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr class="@(item.DueDate < DateTime.Today ? "table-danger" : "")">
-            <td>@item.Student?.Name</td>
-            <td>@item.FeeHead?.Name</td>
-            <td>@item.Amount.ToString("C")</td>
-            <td>@item.DueDate.ToShortDateString()</td>
-            <td>
-                <form asp-action="Pay" asp-route-id="@item.Id" method="post" style="display:inline;">
-                    <button type="submit" class="btn btn-success btn-sm">Mark Paid</button>
-                </form>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="card shadow-sm">
+    <div class="card-header bg-white py-3 d-flex justify-content-between align-items-center">
+        <h5 class="mb-0 text-danger fw-bold"><i class="bi bi-cash-coin me-2"></i>Unpaid Fees List</h5>
+        <a asp-action="Assign" class="btn btn-danger"><i class="bi bi-plus-lg me-1"></i>Assign New Fee</a>
+    </div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+             <table class="table table-hover table-striped mb-0 align-middle">
+                <thead class="bg-light text-secondary">
+                    <tr>
+                        <th class="ps-4">Registration No</th>
+                        <th>Student</th>
+                        <th>Fee Head</th>
+                        <th>Amount</th>
+                        <th>Due Date</th>
+                        <th class="text-end pe-4">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+            @foreach (var item in Model) {
+                    <tr class="@(item.DueDate < DateTime.Today ? "table-danger" : "")">
+                        <td class="ps-4 fw-medium">@item.Student?.RegistrationNo</td>
+                        <td>@item.Student?.Name</td>
+                        <td><span class="badge bg-secondary">@item.FeeHead?.Name</span></td>
+                        <td class="fw-bold text-dark">@item.Amount.ToString("C")</td>
+                        <td>
+                            @if (item.DueDate < DateTime.Today)
+                            {
+                                <span class="text-danger fw-bold"><i class="bi bi-exclamation-circle me-1"></i>@item.DueDate.ToShortDateString()</span>
+                            }
+                            else
+                            {
+                                <span>@item.DueDate.ToShortDateString()</span>
+                            }
+                        </td>
+                        <td class="text-end pe-4">
+                            <form asp-action="Pay" asp-route-id="@item.Id" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-success btn-sm" title="Mark as Paid"><i class="bi bi-check-lg me-1"></i>Pay</button>
+                            </form>
+                            <a asp-action="Print" asp-route-id="@item.Id" target="_blank" class="btn btn-outline-secondary btn-sm ms-1" title="Print Challan"><i class="bi bi-printer"></i></a>
+                        </td>
+                    </tr>
+            }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -9,5 +9,7 @@ namespace FeesManagementSystem.Services
         Task<List<StudentFee>> GetOverdueFeesAsync();
         Task AssignFeeAsync(int studentId, int feeHeadId, decimal amount, DateTime dueDate);
         Task PayFeeAsync(int studentFeeId);
+        
+        Task<IEnumerable<StudentFee>> GetAllFeesAsync();
     }
 }

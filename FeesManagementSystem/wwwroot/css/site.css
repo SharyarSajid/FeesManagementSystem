@@ -1,31 +1,227 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+.form-floating>.form-control-plaintext::placeholder,
+.form-floating>.form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+.form-floating>.form-control-plaintext:focus::placeholder,
+.form-floating>.form-control:focus::placeholder {
+    text-align: start;
+}
+
+/* Login Redesign */
+body.login-layout-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-split-screen {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-image-side {
+    flex: 1;
+    background-image: url('/images/gettyimages-1338737959.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: none;
+}
+
+.login-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 100%);
+}
+
+@media (min-width: 992px) {
+    .login-image-side {
+        display: block;
+        flex: 0 0 60%;
+    }
+}
+
+.login-text-overlay {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+    max-width: 80%;
+    z-index: 2;
+}
+
+.login-text-overlay h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-text-overlay p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.login-form-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;  Removed to prevent clipping */
+    align-items: center;
+    padding: 2rem;
+    /* Reduced padding for smaller screens */
+    background: linear-gradient(135deg, #fdfbf1 0%, #fae8c8 100%);
+    overflow-y: auto;
+    position: relative;
+    height: 100vh;
+    /* Ensure full height */
+}
+
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.login-header {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.login-header h2 {
+    font-weight: 700;
+    color: #2c3e50;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+
+.login-header p {
+    color: #95a5a6;
+    font-size: 1rem;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: #34495e;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.form-control-premium {
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    border: 2px solid #f0f2f5;
+    background-color: #f8f9fa;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2c3e50;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.form-control-premium:focus {
+    background-color: #fff;
+    border-color: #3498db;
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.1);
+    outline: none;
+}
+
+.input-group-text-premium {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    color: #95a5a6;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.btn-premium {
+    border-radius: 12px;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    border: none;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    margin-top: 1rem;
+}
+
+.btn-premium:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
+    background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
+}
+
+.auth-links {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #7f8c8d;
+}
+
+.auth-links a {
+    color: #3498db;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.auth-links a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Custom Checkbox */
+.form-check-input:checked {
+    background-color: #3498db;
+    border-color: #3498db;
 }

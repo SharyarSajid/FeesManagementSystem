@@ -1,5 +1,3 @@
-using System.Threading.Tasks;
-
 namespace FeesManagementSystem.Services
 {
     public interface INotificationService

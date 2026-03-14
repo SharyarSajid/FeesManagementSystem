@@ -1,0 +1,47 @@
+@model FeesManagementSystem.Models.VerifyOtpViewModel
+
+@{
+    ViewData["Title"] = "OTP Verification";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<div class="login-split-screen">
+    <div class="login-image-side">
+        <div class="login-image-overlay"></div>
+        <div class="login-text-overlay">
+            <h1>OTP Verification</h1>
+            <p>Enter the verification code we just sent to your email address.</p>
+        </div>
+    </div>
+    <div class="login-form-side">
+        <div class="login-card">
+            <div class="login-header">
+                <h2>OTP Verification</h2>
+                <p>Check your email (@Model.Email) for the code.</p>
+            </div>
+            <form asp-action="VerifyOtp" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                <input type="hidden" asp-for="Email" />
+                
+                <div class="form-group mb-4">
+                    <label asp-for="Otp" class="control-label">Verification Code</label>
+                    <input asp-for="Otp" class="form-control form-control-premium text-center" placeholder="XXXX" maxlength="4" style="letter-spacing: 0.5em; font-size: 1.5em;" />
+                    <span asp-validation-for="Otp" class="text-danger"></span>
+                    <small class="form-text text-muted d-block mt-2">The OTP expires in 15 minutes.</small>
+                </div>
+                
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary btn-premium">Verify</button>
+                </div>
+            </form>
+
+            <div class="auth-links">
+                <p>Didn't receive code? <a asp-action="ForgotPassword" asp-controller="Account">Resend</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

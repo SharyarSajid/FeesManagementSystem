@@ -30,12 +30,24 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Account/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/FeesManagementSystem/FeesManagementSystem/Views/Fees/Assign.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlc1xBc3NpZ24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/FeesManagementSystem/FeesManagementSystem/Views/Fees/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Fees/Print.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlc1xQcmludC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/FeesManagementSystem/FeesManagementSystem/Views/Home/Index.cshtml]
@@ -58,8 +70,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/FeesManagementSystem/FeesManagementSystem/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FeesManagementSystem/FeesManagementSystem/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/FeesManagementSystem/FeesManagementSystem/Views/Students/Index.cshtml]

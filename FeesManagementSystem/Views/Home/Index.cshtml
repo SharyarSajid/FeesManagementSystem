@@ -2,7 +2,55 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center mb-5">
+    <h1 class="display-4 fw-bold text-primary">Fees Management Dashboard</h1>
+    <p class="lead">Manage your students and their fees efficiently.</p>
+</div>
+
+<div class="row g-4 justify-content-center">
+    <!-- Student Card -->
+    <div class="col-md-6 col-lg-6">
+        <div class="card h-100 shadow-sm border-0 border-start border-primary border-5 hover-card">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                    <div class="flex-shrink-0 me-3 text-primary">
+                        <i class="bi bi-people-fill fs-1"></i>
+                    </div>
+                    <div>
+                        <h5 class="card-title text-secondary mb-0">Students</h5>
+                    </div>
+                </div>
+                <p class="card-text text-muted">Manage student records.</p>
+                <div class="d-grid">
+                    <a asp-controller="Students" asp-action="Index" class="btn btn-outline-primary btn-sm">View All Students</a>
+                    <a asp-controller="Students" asp-action="Create" class="btn btn-primary btn-sm mt-2">Add New Student</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fees Card -->
+    @if (User.IsInRole("Supervisor"))
+    {
+    <div class="col-md-6 col-lg-6">
+        <div class="card h-100 shadow-sm border-0 border-start border-danger border-5 hover-card">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                    <div class="flex-shrink-0 me-3 text-danger">
+                        <i class="bi bi-cash-coin fs-1"></i>
+                    </div>
+                    <div>
+                        <h5 class="card-title text-secondary mb-0">Unpaid Fees</h5>
+                    </div>
+                </div>
+                <p class="card-text text-muted">Track pending payments.</p>
+                <div class="d-grid">
+                    <a asp-controller="Fees" asp-action="Index" class="btn btn-outline-danger btn-sm">View Unpaid List</a>
+                    <a asp-controller="Fees" asp-action="Assign" class="btn btn-danger btn-sm mt-2">Assign New Fee</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    }
+    
 </div>

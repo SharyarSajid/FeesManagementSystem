@@ -1,0 +1,100 @@
+@model FeesManagementSystem.Models.StudentFee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Fee Challan - @Model.Student?.RegistrationNo</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; }
+        .challan-container {
+            border: 2px solid #000;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .header { text-align: center; border-bottom: 2px solid #000; padding-bottom: 10px; margin-bottom: 20px; }
+        .header h1 { margin: 0; text-transform: uppercase; }
+        .header p { margin: 5px 0 0; }
+        .details-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        .details-table td { padding: 8px; border: 1px solid #ccc; }
+        .details-table td:first-child { font-weight: bold; width: 30%; background-color: #f9f9f9; }
+        .amount-row td { font-size: 1.2em; font-weight: bold; background-color: #e9ecef !important; }
+        .footer { margin-top: 40px; display: flex; justify-content: space-between; }
+        .signature-line { border-top: 1px solid #000; width: 200px; text-align: center; padding-top: 5px; }
+        .print-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        @@media print {
+            .print-btn { display: none; }
+            .challan-container { border: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="challan-container">
+        <div class="header">
+            <h1>Fees Management System</h1>
+            <p>Fee Challan / Invoice</p>
+            <div style="display: flex; align-items: center; flex-grow: 1;">
+                <span style="font-weight: bold; margin-right: 5px;">Date:</span>
+                <span style="border-bottom: 1px solid black; min-width: 150px; display: inline-block; height: 18px;"></span>
+            </div>
+        </div>
+
+        <table class="details-table">
+            <tr>
+                <td>Challan No (Fee ID)</td>
+                <td>@Model.Id</td>
+            </tr>
+            <tr>
+                <td>Registration No</td>
+                <td>@Model.Student?.RegistrationNo</td>
+            </tr>
+            <tr>
+                <td>Student Name</td>
+                <td>@Model.Student?.Name</td>
+            </tr>
+            <tr>
+                <td>Department / Course</td>
+                <td>@(Model.Student?.Department ?? "N/A") / @(Model.Student?.Course ?? "N/A")</td>
+            </tr>
+            <tr>
+                <td>Fee Head</td>
+                <td>@Model.FeeHead?.Name</td>
+            </tr>
+            <tr>
+                <td>Due Date</td>
+                <td>@Model.DueDate.ToShortDateString()</td>
+            </tr>
+            <tr class="amount-row">
+                <td>Total Amount</td>
+                <td>@Model.Amount.ToString("C")</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            <div>
+                <div class="signature-line">Student Signature</div>
+            </div>
+            <div>
+                <div class="signature-line">Authorized Signature</div>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="window.print()" class="print-btn">Print Challan</button>
+</body>
+</html>

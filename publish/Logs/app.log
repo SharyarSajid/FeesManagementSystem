@@ -1,0 +1,82 @@
+2026-02-09 12:07:05,297 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:07:19,151 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Cannot get a local application data path. Most probably a user profile is not loaded. If LocalDB is executed under IIS, make sure that profile loading is enabled for the current user.
+)
+2026-02-09 12:08:01,930 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:08:17,010 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Cannot get a local application data path. Most probably a user profile is not loaded. If LocalDB is executed under IIS, make sure that profile loading is enabled for the current user.
+)
+2026-02-09 12:08:21,091 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-09 12:08:25,240 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:08:25,325 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Cannot get a local application data path. Most probably a user profile is not loaded. If LocalDB is executed under IIS, make sure that profile loading is enabled for the current user.
+)
+2026-02-09 12:08:29,006 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:08:43,686 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Cannot get a local application data path. Most probably a user profile is not loaded. If LocalDB is executed under IIS, make sure that profile loading is enabled for the current user.
+)
+2026-02-09 12:16:19,256 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:16:28,824 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2026-02-09 12:16:36,650 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-09 12:16:50,757 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:16:50,781 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2026-02-09 12:22:33,261 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:22:43,722 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2026-02-09 12:22:53,155 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:23:02,189 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2026-02-09 12:24:49,880 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:25:00,762 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2026-02-09 12:25:14,708 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:25:28,866 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2026-02-09 12:27:24,078 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:27:36,520 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2026-02-09 12:31:50,792 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:31:53,504 WARN  FeesManagementSystem.Controllers.AccountController - Invalid login attempt for sharyarsajid20@gmail.com.
+2026-02-09 12:31:58,539 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-09 12:31:58,814 ERROR FeesManagementSystem.Controllers.AccountController - Signup Error for sharyarsajid20@gmail.com: DuplicateUserName - Username 'sharyarsajid20@gmail.com' is already taken.
+2026-02-09 12:32:09,448 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-09 12:32:10,071 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com created successfully.
+2026-02-09 12:32:14,768 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged out.
+2026-02-09 12:32:46,683 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid2020@gmail.com
+2026-02-09 12:32:47,463 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged in successfully.
+2026-02-09 12:32:53,028 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged out.
+2026-02-09 12:33:28,336 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid2020@gmail.com
+2026-02-09 12:33:29,184 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged in successfully.
+2026-02-09 12:33:31,743 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged out.
+2026-02-09 12:33:34,808 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:33:35,165 WARN  FeesManagementSystem.Controllers.AccountController - Invalid login attempt for sharyarsajid20@gmail.com.
+2026-02-09 12:33:39,611 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-09 12:33:39,880 ERROR FeesManagementSystem.Controllers.AccountController - Signup Error for sharyarsajid20@gmail.com: DuplicateUserName - Username 'sharyarsajid20@gmail.com' is already taken.
+2026-02-09 12:34:50,633 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:34:51,202 WARN  FeesManagementSystem.Controllers.AccountController - Invalid login attempt for sharyarsajid20@gmail.com.
+2026-02-09 12:34:55,139 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid2020@gmail.com
+2026-02-09 12:34:55,695 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged in successfully.
+2026-02-09 12:34:57,744 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged out.
+2026-02-09 12:47:35,488 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid2020@gmail.com
+2026-02-09 12:47:36,394 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged in successfully.
+2026-02-09 12:50:26,531 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid2020@gmail.com
+2026-02-09 12:50:29,830 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged in successfully.
+2026-02-09 12:55:05,182 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:55:11,302 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2026-02-09 12:55:21,851 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:55:32,299 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2026-02-09 12:56:10,529 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-09 12:56:17,162 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 12:56:27,647 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+2026-02-09 13:54:27,876 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 13:54:39,476 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid20@gmail.com: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=61; handshake=84; [Login] initialization=4; authentication=29; [Post-Login] complete=14044; 
+2026-02-09 13:55:39,896 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid2020@gmail.com
+2026-02-09 13:55:53,548 ERROR FeesManagementSystem.Controllers.AccountController - Exception during login for sharyarsajid2020@gmail.com: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=42; handshake=70; [Login] initialization=3; authentication=20; [Post-Login] complete=14020; 
+2026-02-09 13:55:58,476 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 13:56:00,584 WARN  FeesManagementSystem.Controllers.AccountController - Invalid login attempt for sharyarsajid20@gmail.com.
+2026-02-09 13:56:05,147 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid20@gmail.com
+2026-02-09 13:56:33,293 WARN  FeesManagementSystem.Controllers.AccountController - Invalid login attempt for sharyarsajid20@gmail.com.
+2026-02-09 13:58:19,469 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-09 13:58:20,290 ERROR FeesManagementSystem.Controllers.AccountController - Signup Error for sharyarsajid20@gmail.com: DuplicateUserName - Username 'sharyarsajid20@gmail.com' is already taken.
+2026-02-09 13:58:45,613 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-09 13:58:46,088 ERROR FeesManagementSystem.Controllers.AccountController - Signup Error for sharyarsajid2020@gmail.com: DuplicateUserName - Username 'sharyarsajid2020@gmail.com' is already taken.
+2026-02-09 13:58:52,536 INFO  FeesManagementSystem.Controllers.AccountController - $"Attempting to create user: {model.Email}"
+2026-02-09 13:58:53,172 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid202020@gmail.com created successfully.
+2026-02-09 13:58:59,948 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid202020@gmail.com logged out.
+2026-02-09 13:59:06,654 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid202020@gmail.com
+2026-02-09 13:59:06,896 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid202020@gmail.com logged in successfully.
+2026-02-09 13:59:08,614 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid202020@gmail.com logged out.
+2026-03-12 13:08:59,999 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: sharyarsajid2020@gmail.com
+2026-03-12 13:09:00,843 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged in successfully.
+2026-03-12 13:09:10,113 INFO  FeesManagementSystem.Controllers.AccountController - User sharyarsajid2020@gmail.com logged out.

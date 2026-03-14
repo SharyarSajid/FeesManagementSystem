@@ -1,11 +1,7 @@
-using System;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
+
+using FeesManagementSystem.Data;
 using FeesManagementSystem.Services;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
 namespace FeesManagementSystem.Background
 {
@@ -13,8 +9,8 @@ namespace FeesManagementSystem.Background
     {
         private readonly IServiceProvider _serviceProvider;
         private readonly ILogger<FeeNotificationJob> _logger;
-        private readonly TimeSpan _checkInterval = TimeSpan.FromMinutes(2); // Check daily
-        
+        private readonly TimeSpan _checkInterval = TimeSpan.FromDays(1);
+
         public FeeNotificationJob(IServiceProvider serviceProvider, ILogger<FeeNotificationJob> logger)
         {
             _serviceProvider = serviceProvider;
@@ -29,59 +25,80 @@ namespace FeesManagementSystem.Background
             {
                 try
                 {
-                    await CheckOverdueFeesAsync(stoppingToken);
+                    await CheckFeesAndNotifyAsync(stoppingToken);
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex, "Error occurred while checking overdue fees.");
+                    _logger.LogError(ex, "Error occurred while checking fees.");
                 }
 
-                _logger.LogInformation($"Fee Notification Job sleeping for {_checkInterval.TotalHours} hours.");
+                _logger.LogInformation($"Job sleeping for {_checkInterval.TotalDays} day...");
                 await Task.Delay(_checkInterval, stoppingToken);
             }
-
-
         }
 
-        private async Task CheckOverdueFeesAsync(CancellationToken stoppingToken)
+        private async Task CheckFeesAndNotifyAsync(CancellationToken stoppingToken)
         {
+            if (stoppingToken.IsCancellationRequested) return;
+
             using (var scope = _serviceProvider.CreateScope())
             {
-                var feeService = scope.ServiceProvider.GetRequiredService<IFeeService>();
+                var _context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
                 var notificationService = scope.ServiceProvider.GetRequiredService<INotificationService>();
 
-                var overdueFees = await feeService.GetOverdueFeesAsync();
-                
-                if (overdueFees.Any())
+                DateTime today = DateTime.Today;
+
+                var pendingFees = await _context.StudentFees
+                    .Include(f => f.Student)
+                    .Include(f => f.FeeHead)
+                    .Where(f => !f.IsPaid)
+                    .ToListAsync(stoppingToken);
+
+                foreach (var fee in pendingFees)
                 {
-                    _logger.LogInformation($"Found {overdueFees.Count} overdue fees.");
-                    foreach (var fee in overdueFees)
+                    if (stoppingToken.IsCancellationRequested) return;
+                    if (fee.Student == null || string.IsNullOrEmpty(fee.Student.Email)) continue;
+
+                    string subject = "";
+                    string message = "";
+                    bool shouldSend = false;
+
+                    // Scenario 1: 7 din pehle reminder
+                    if (fee.DueDate.Date == today.AddDays(7).Date)
                     {
-                        if (stoppingToken.IsCancellationRequested) break;
+                        subject = "Upcoming Fee Reminder (1 Week Left)";
+                        message = $"Dear {fee.Student.Name}, your fee of {fee.Amount} for {fee.FeeHead?.Name} is due on {fee.DueDate.ToShortDateString()}.";
+                        shouldSend = true;
+                    }
+                    // Scenario 2: Overdue alert (Due date guzar gayi)
+                    else if (fee.DueDate.Date < today.Date)
+                    {
+                        subject = "Overdue Fee Alert";
+                        message = $"Dear {fee.Student.Name}, your fee of {fee.Amount} for {fee.FeeHead?.Name} was due on {fee.DueDate.ToShortDateString()}. Please pay immediately.";
+                        shouldSend = true;
+                    }
 
-                        if (fee.Student != null)
+                    if (shouldSend)
+                    {
+                        try
                         {
-                            var message = $"Dear {fee.Student.Name}, your fee of {fee.Amount:C} for {fee.FeeHead?.Name} was due on {fee.DueDate.ToShortDateString()}. Please pay immediately.";
-                            
-                            // Send SMS
-                            if (!string.IsNullOrEmpty(fee.Student.PhoneNumber))
+                            await notificationService.SendEmailAsync(fee.Student.Email, subject, message);
+                            if (!stoppingToken.IsCancellationRequested)
                             {
-                                await notificationService.SendSmsAsync(fee.Student.PhoneNumber, message);
+                                _logger.LogInformation($"Notification sent to {fee.Student.Email}");
                             }
-
-                            // Send Email
-                            if (!string.IsNullOrEmpty(fee.Student.Email))
+                        }
+                        catch (Exception ex)
+                        {
+                            if (!stoppingToken.IsCancellationRequested)
                             {
-                                await notificationService.SendEmailAsync(fee.Student.Email, "Overdue Fee Alert", message);
+                                _logger.LogError($"Email error: {ex.Message}");
                             }
                         }
                     }
                 }
-                else
-                {
-                    _logger.LogInformation("No overdue fees found.");
-                }
             }
         }
     }
+
 }

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\ProgrammingPractice\FeesManagementSystem\FeesManagementSystem\bin\Release\net10.0\publish\</_PublishTargetUrl>
+    <History>True|2026-02-04T15:56:24.5778936Z||;True|2026-02-04T20:48:20.3056993+05:00||;True|2026-02-04T19:24:38.9250560+05:00||;True|2026-02-04T19:19:03.7538416+05:00||;True|2026-02-04T19:11:57.6943395+05:00||;True|2026-02-04T17:25:55.0103405+05:00||;True|2026-02-04T17:23:20.8824280+05:00||;True|2026-02-04T17:13:34.9421518+05:00||;True|2026-02-04T10:59:57.5070328+05:00||;True|2026-02-03T19:21:44.1668191+05:00||;True|2026-02-03T19:18:14.0179773+05:00||;True|2026-02-03T18:56:20.5066850+05:00||;True|2026-02-02T18:44:02.2562117+05:00||;True|2026-02-02T18:40:50.1389950+05:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
