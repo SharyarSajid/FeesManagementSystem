@@ -394,3 +394,5 @@
 2026-02-24 15:45:19,651 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged out.
 2026-02-24 15:45:35,621 INFO  FeesManagementSystem.Controllers.AccountController - OTP generated for sharyarsajid20@gmail.com: 9899
 2026-02-24 15:45:35,709 INFO  FeesManagementSystem.Controllers.AccountController - VerifyOtp GET called for: sharyarsajid20@gmail.com
+2026-03-14 14:53:45,542 INFO  FeesManagementSystem.Controllers.AccountController - Login attempt for: dataentryoperator@gmail.com
+2026-03-14 14:53:46,338 INFO  FeesManagementSystem.Controllers.AccountController - User dataentryoperator@gmail.com logged in successfully.
